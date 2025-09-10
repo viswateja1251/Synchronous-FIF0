@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_projects/SynchronousFIFO/SynchronousFIFO.srcs/sources_1/new/SyncFIFO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SyncFIFO
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_projects/SynchronousFIFO/SynchronousFIFO.srcs/sim_1/new/test_bench_syncfifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_bench_syncfifo
+WARNING: [VRFC 10-8374] loop variable declaration is not allowed in this mode of Verilog [D:/Vivado_projects/SynchronousFIFO/SynchronousFIFO.srcs/sim_1/new/test_bench_syncfifo.v:82]
+WARNING: [VRFC 10-8374] loop variable declaration is not allowed in this mode of Verilog [D:/Vivado_projects/SynchronousFIFO/SynchronousFIFO.srcs/sim_1/new/test_bench_syncfifo.v:88]
+WARNING: [VRFC 10-8374] loop variable declaration is not allowed in this mode of Verilog [D:/Vivado_projects/SynchronousFIFO/SynchronousFIFO.srcs/sim_1/new/test_bench_syncfifo.v:92]

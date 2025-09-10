@@ -1,0 +1,46 @@
+Time resolution is 1 ps
+                   5
+ SCENARIO 1
+                  15write_data data_in =          1
+                  35write_data data_in =        100
+                  55write_data data_in =       1000
+                  85read_data data is =          x
+                 105read_data data is =          1
+                 125read_data data is =        100
+                 125
+ SCENARIO 2
+                 135write_data data_in =          1
+                 165read_data data is =       1000
+                 175write_data data_in =          2
+                 205read_data data is =          1
+                 215write_data data_in =          4
+                 245read_data data is =          2
+                 255write_data data_in =          8
+                 285read_data data is =          4
+                 295write_data data_in =         16
+                 325read_data data is =          8
+                 335write_data data_in =         32
+                 365read_data data is =         16
+                 375write_data data_in =         64
+                 405read_data data is =         32
+                 415write_data data_in =        128
+                 445read_data data is =         64
+                 445
+ SCENARIO 3
+                 455write_data data_in =          1
+                 475write_data data_in =          2
+                 495write_data data_in =          4
+                 515write_data data_in =          8
+                 535write_data data_in =         16
+                 555write_data data_in =         32
+                 575write_data data_in =         64
+                 595write_data data_in =        128
+                 625read_data data is =        128
+                 645read_data data is =          1
+                 665read_data data is =          2
+                 685read_data data is =          4
+                 705read_data data is =          8
+                 725read_data data is =         16
+                 745read_data data is =         32
+                 765read_data data is =         64
+$finish called at time : 805 ns : File "D:/Vivado_projects/SynchronousFIFO/SynchronousFIFO.srcs/sim_1/new/test_bench_syncfifo.v" Line 95
