@@ -1,7 +1,7 @@
 **Synchronous FIFO Design (Vivado)**
 **Overview**
 
-This project implements a Synchronous FIFO (First-In-First-Out) buffer using Verilog HDL in Xilinx Vivado.
+  This project implements a Synchronous FIFO (First-In-First-Out) buffer using Verilog HDL in Xilinx Vivado.
 A FIFO is a sequential memory storage element widely used in digital systems for buffering and data flow control. This design ensures reliable data transfer between modules operating on the same clock domain.
 
 **Features**
